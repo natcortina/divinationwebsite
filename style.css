@@ -1,0 +1,164 @@
+body {
+  background-color: #FFDB00   ;
+
+  font-family: 'Cutive Mono', monospace;
+}
+
+.page1 {
+
+  background-color: #E8D8BB  ;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Rammetto One', cursive;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.unouno{
+  text-align: center;
+font-size: 300px;
+padding: 50px;
+
+}
+
+.unodos{
+  display: inline;
+  text-align: center;
+font-size: 340px;
+
+font-family: 'Tilt Prism', cursive;
+padding: 0px;
+}
+
+.unotres{
+  display: inline;
+  text-align: center;
+font-size: 300px;
+
+font-family: 'Henny Penny', cursive;
+padding: 50px;
+}
+
+
+.unouno:hover {
+
+font-size: 330px;
+
+}
+
+.unodos:hover {
+
+font-size: 360px;
+
+}
+
+.unotres:hover {
+
+font-size: 330px;
+
+}
+
+.number {
+  font-size: 300px;
+  font-family: 'Rammetto One', cursive;
+
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #FFFEF3  ;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0, 2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffd200;
+  color: #000;
+  font-weight: bold;
+
+
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.advices {
+
+padding: 60px;
+padding-left: 320px;
+font-size: 50px;
+text-align: right;
+font-family: 'Cutive Mono', monospace;
+
+}
+
+.page {
+
+font-size: 120px;
+  font-family: 'Rammetto One', cursive;
+}
+
+
+.moons {
+
+width: 300px;
+height: 400px;
+padding-left: 0px;
+margin-top: -200px;
+
+   margin: 0px;
+   z-index: 2;
+}
+
+
+.exit2{
+
+width: 300px;
+height: 300px;
+
+}
+
+.exit3 {
+ position: relative;
+  width: 250px;
+  height: 200px;
+
+  margin-left: 700px;
+ z-index: 2;
+  
+  
+}
+
+
