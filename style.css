@@ -21,17 +21,19 @@ a{
   color: black;
 }
 
-.unouno{
+.unohover {
+
+ display: inline;
   text-align: center;
-font-size: 300px;
-padding: 50px;
+font-size: 280px;
+padding: 0px;
 
 }
 
 .unodos{
   display: inline;
   text-align: center;
-font-size: 340px;
+font-size: 300px;
 
 font-family: 'Tilt Prism', cursive;
 padding: 0px;
@@ -46,22 +48,21 @@ font-family: 'Henny Penny', cursive;
 padding: 50px;
 }
 
+.unohover :hover {
 
-.unouno:hover {
-
-font-size: 330px;
+  font-size: 370px;
 
 }
 
 .unodos:hover {
 
-font-size: 360px;
+font-size: 370px;
 
 }
 
 .unotres:hover {
 
-font-size: 330px;
+font-size: 370px;
 
 }
 
@@ -71,14 +72,6 @@ font-size: 330px;
 
 }
 
-.container {
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 30px;
-  background-color: #FFFEF3  ;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 0, 0, 0, 2);
-}
 
 form {
   display: flex;
@@ -99,6 +92,10 @@ input {
 }
 
 button {
+
+display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -117,9 +114,9 @@ button:hover {
 .advices {
 
 padding: 60px;
-padding-left: 320px;
+
 font-size: 50px;
-text-align: right;
+text-align: center;
 font-family: 'Cutive Mono', monospace;
 
 }
@@ -147,6 +144,9 @@ margin-top: -200px;
 
 width: 300px;
 height: 300px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -159,6 +159,12 @@ height: 300px;
  z-index: 2;
   
   
+}
+
+.enternumber {
+
+  font-size: 40px;
+  padding: 30px;
 }
 
 
