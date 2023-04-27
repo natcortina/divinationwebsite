@@ -150,13 +150,34 @@ height: 300px;
 
 }
 
+.exit2:hover{
+
+width: 400px;
+height: 400px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .exit3 {
  position: relative;
-  width: 250px;
-  height: 200px;
+width: 300px;
+height: 300px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+}
 
-  margin-left: 700px;
- z-index: 2;
+.exit3:hover {
+ position: relative;
+width: 430px;
+height: 430px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
   
   
 }
@@ -167,4 +188,16 @@ height: 300px;
   padding: 30px;
 }
 
+.enterletter{
+
+  font-size: 40px;
+  padding: 30px;
+}
+
+
+.betterday{
+
+padding: 40px;
+  font-size: 40px;
+}
 
